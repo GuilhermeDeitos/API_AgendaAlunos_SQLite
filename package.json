@@ -1,0 +1,19 @@
+{
+  "name": "api-web",
+  "version": "1.0.0",
+  "description": "Api feita para a matéria de programação WEB, foram utilizados o SQLite, Express, NodeJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .",
+    "init-db": "node db/init.js"
+  },
+  "author": "Guilherme Deitos e Sarah Klock",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
